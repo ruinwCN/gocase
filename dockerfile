@@ -7,4 +7,4 @@ RUN go env -w GOPROXY=https://goproxy.cn,direct
 RUN go mod tidy
 RUN go build
 EXPOSE 8000
-CMD ["go", "run", "main.go"]conf
+CMD ["go", "run", "main.go"]
